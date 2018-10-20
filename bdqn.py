@@ -14,7 +14,7 @@ from collections import namedtuple
 import time
 import pickle
 import logging, logging.handlers
-%matplotlib inline
+#%matplotlib inline
 import matplotlib.ticker as mtick
 
 
