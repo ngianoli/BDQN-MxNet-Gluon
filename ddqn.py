@@ -124,14 +124,14 @@ def main(env):
 
     # parameter initializations
     envname = dict_env[env]
-    lr = 0.0025  # learning rate for gradient update
+    lr = 0.005  # learning rate for gradient update
     rms_eps = 0.01 # RMSprop epsilon bias
     momentum=0.95 # RMSprop momentum
     decay=0.95 # RMSprop decay
     epsilon = 1.0  # constant for exploration
     epsilon_weakening = 0.995
     gamma = .99  # discount
-    batchsize = 128  # batchsize for buffer sampling
+    batchsize = 32  # batchsize for buffer sampling
     maxlength = int(1e4)  # max number of tuples held by buffer
     initialsize = 10000  # initial time steps before start updating
     episodes = int(1e6)  # number of episodes to run
