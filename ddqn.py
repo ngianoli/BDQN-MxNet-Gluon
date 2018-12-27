@@ -131,11 +131,11 @@ def main(env):
     epsilon = 1.0  # constant for exploration
     epsilon_weakening = 0.995
     gamma = .99  # discount
-    batchsize = 32  # batchsize for buffer sampling
-    maxlength = int(1e6)  # max number of tuples held by buffer
+    batchsize = 128  # batchsize for buffer sampling
+    maxlength = int(1e4)  # max number of tuples held by buffer
     initialsize = 10000  # initial time steps before start updating
-    episodes = int(2e8)  # number of episodes to run
-    episode_max_length = 3000
+    episodes = int(1e6)  # number of episodes to run
+    episode_max_length = 2000
     tau_target = 1000  # time steps for target update
 
     # initialize environment
