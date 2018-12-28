@@ -267,7 +267,7 @@ def main(env):
                 sess.run(update)
 
     #save scores:
-    save_scores(scores)
+    #save_scores(scores)
     plt.plot(episodes,scores)
     plt.show()
 
