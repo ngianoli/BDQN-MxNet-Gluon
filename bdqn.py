@@ -2,7 +2,7 @@ from __future__ import print_function
 import mxnet as mx
 from mxnet import nd, autograd
 from mxnet import gluon
-
+import sys
 import os
 import random
 import numpy as np
