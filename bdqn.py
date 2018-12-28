@@ -369,8 +369,8 @@ while epis_count < opt.max_episode:
                 else:
                     opt.target_batch_size = 100000
         if done:
-            if epis_count % 100. == 0. :
-                print('Episode {} -> Score : {}'.format(epis_count,moving_average))
+            if epis_count % 10. == 0. :
+                print('Episode {} -> Score : {}'.format(epis_count,cum_rew))
                 logging.error('BDQN:env:%s,epis[%d],durat[%d],fnum=%d, cum_cl_rew = %d, cum_rew = %d,tot_cl = %d , tot = %d'\
                   %(env_name, epis_count,t+1,frame_counter,cum_clipped_reward,cum_reward,moving_average_clipped,moving_average))
     epis_count += 1
