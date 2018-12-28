@@ -43,7 +43,7 @@ class Options:
         self.replay_start_size = 50000 # Start to backpropagated through the network, learning starts
 
         #otimization
-        self.max_episode =   200000000 #max number of episodes#
+        self.max_episode =   10000 #max number of episodes#
         self.lr = 0.0025 # RMSprop learning rate
         self.gamma1 = 0.95 # RMSprop gamma1
         self.gamma2 = 0.95 # RMSprop gamma2
@@ -61,8 +61,12 @@ class Options:
         self.sigma = 0.001 # W prior variance
         self.sigma_n = 1 # noise variacne
 opt = Options()
+envname = sys.argv[1]
+dict_env={'pong':'Pong-v0', 'assault':'Assault-v0', 'alien':'Alien-v0', 'centipede':'Centipede-v0'}
 
-env_name = 'AsterixNoFrameskip-v4' # Set the desired environment
+# parameter initializations
+env_name = dict_env[envname]
+#env_name = 'AsterixNoFrameskip-v4' # Set the desired environment
 env = gym.make(env_name)
 num_action = env.action_space.n # Extract the number of available action from the environment setting
 
@@ -366,6 +370,7 @@ while epis_count < opt.max_episode:
                     opt.target_batch_size = 100000
         if done:
             if epis_count % 100. == 0. :
+                print('Episode {} -> Score : {}'.format(epis_count,moving_average))
                 logging.error('BDQN:env:%s,epis[%d],durat[%d],fnum=%d, cum_cl_rew = %d, cum_rew = %d,tot_cl = %d , tot = %d'\
                   %(env_name, epis_count,t+1,frame_counter,cum_clipped_reward,cum_reward,moving_average_clipped,moving_average))
     epis_count += 1
