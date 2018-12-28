@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 import os
-import tensorflow-gpu as tf
+import tensorflow as tf
 import gym
 
 from utils import *
