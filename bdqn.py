@@ -31,7 +31,7 @@ class Options:
         self.batch_size = 32 # The size of the batch to learn the Q-function
         self.image_size = 84 # Resize the raw input frame to square frame of size 80 by 80
         #Trickes
-        self.replay_buffer_size = 1000000 # The size of replay buffer; set it to size of your memory (.5M for 50G available memory)
+        self.replay_buffer_size = 500000 # The size of replay buffer; set it to size of your memory (.5M for 50G available memory)
         self.learning_frequency = 4 # With Freq of 1/4 step update the Q-network
         self.skip_frame = 4 # Skip 4-1 raw frames between steps
         self.internal_skip_frame = 4 # Skip 4-1 raw frames between skipped frames
@@ -43,7 +43,7 @@ class Options:
         self.replay_start_size = 50000 # Start to backpropagated through the network, learning starts
 
         #otimization
-        self.max_episode =   10000 #max number of episodes#
+        self.max_episode =   4000 #max number of episodes#
         self.lr = 0.0025 # RMSprop learning rate
         self.gamma1 = 0.95 # RMSprop gamma1
         self.gamma2 = 0.95 # RMSprop gamma2
