@@ -43,7 +43,7 @@ class Options:
         self.replay_start_size = 50000 # Start to backpropagated through the network, learning starts
 
         #otimization
-        self.max_episode =   5000 #max number of episodes#
+        self.max_episode =   3000 #max number of episodes#
         self.lr = 0.0025 # RMSprop learning rate
         self.gamma1 = 0.95 # RMSprop gamma1
         self.gamma2 = 0.95 # RMSprop gamma2
