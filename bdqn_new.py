@@ -421,7 +421,8 @@ print('Running after %d number of episodes' %epis_count)
 plt.xlabel("Number of steps")
 plt.ylabel("Average Reward per episode")
 plt.title("%s" %(env_name))
-plt.show()
+plt.savefig("%s" %(env_name))
+
 
 
 '''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
