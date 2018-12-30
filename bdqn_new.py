@@ -105,6 +105,11 @@ def DQN_gen():
         DQN.add(gluon.nn.Conv2D(channels=64, kernel_size=3,strides = 1))
         DQN.add(gluon.nn.BatchNorm(axis = 1, momentum = 0.1,center=True))
         DQN.add(gluon.nn.Activation('relu'))
+        #additional layer
+        DQN.add(gluon.nn.Conv2D(channels=64, kernel_size=2,strides = 1))
+        DQN.add(gluon.nn.BatchNorm(axis = 1, momentum = 0.1,center=True))
+        DQN.add(gluon.nn.Activation('relu'))
+
         DQN.add(gluon.nn.Flatten())
         #fourth layer
         #fifth layer
@@ -408,8 +413,8 @@ for i in range(int(epis_count)-bandwidth):
 
 t = np.arange(int(epis_count)-bandwidth)
 belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQN")
-
 fonts=3
+
 plt.ticklabel_format(axis='both', style='sci', scilimits=(-2,2),fontsize=fonts, family = 'serif')
 plt.legend(fontsize=fonts)
 print('Running after %d number of episodes' %epis_count)
