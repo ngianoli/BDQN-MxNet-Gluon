@@ -42,7 +42,7 @@ class Options:
         self.gamma = 0.99 # The discount factor
         self.replay_start_size = 50000 # Start to backpropagated through the network, learning starts
 
-        #otimization
+        #optimization
         self.max_episode =   3000 #max number of episodes#
         self.lr = 0.0025 # RMSprop learning rate
         self.gamma1 = 0.95 # RMSprop gamma1
@@ -411,7 +411,7 @@ belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQ
 
 fonts=3
 #plt.ticklabel_format(axis='both', style='sci', scilimits=(-2,2),fontsize=fonts, family = 'serif')
-#plt.legend(fontsize=fonts)
+plt.legend()
 print('Running after %d number of episodes' %epis_count)
 plt.xlabel("Number of steps")
 plt.ylabel("Average Reward per episode")

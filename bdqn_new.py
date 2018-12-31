@@ -412,16 +412,16 @@ for i in range(int(epis_count)-bandwidth):
 
 
 t = np.arange(int(epis_count)-bandwidth)
-belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQN")
+belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQN_new")
 fonts=3
 
 #plt.ticklabel_format(axis='both', style='sci', scilimits=(-2,2),fontsize=fonts, family = 'serif')
-#plt.legend(fontsize=fonts)
+plt.legend()
 print('Running after %d number of episodes' %epis_count)
 plt.xlabel("Number of steps")
 plt.ylabel("Average Reward per episode")
 plt.title("%s" %(env_name))
-plt.savefig("%s" %(env_name))
+plt.savefig("%s_new" %(env_name))
 
 
 
