@@ -86,7 +86,7 @@ logging.error(str(ff))
 
 
 
-
+#main framework
 def DQN_gen():
     DQN = gluon.nn.Sequential()
     with DQN.name_scope():
@@ -139,7 +139,7 @@ class Replay_Buffer():
         return random.sample(self.memory, batch_size)
 
 
-
+#Initialize Bayesian Linear Regression Parameters
 
 bat_state = nd.empty((1,opt.frame_len,opt.image_size,opt.image_size), opt.ctx)
 bat_state_next = nd.empty((1,opt.frame_len,opt.image_size,opt.image_size), opt.ctx)
@@ -197,7 +197,7 @@ def sample_W(E_W,U):
 
 
 
-
+#Preprocess frames
 def preprocess(raw_frame, currentState = None, initial_state = False):
     raw_frame = nd.array(raw_frame,mx.cpu())
     raw_frame = nd.reshape(nd.mean(raw_frame, axis = 2),shape = (raw_frame.shape[0],raw_frame.shape[1],1))
@@ -254,7 +254,7 @@ batch_state_next = nd.empty((opt.batch_size,opt.frame_len,opt.image_size,opt.ima
 batch_reward = nd.empty((opt.batch_size),opt.ctx)
 batch_action = nd.empty((opt.batch_size),opt.ctx)
 batch_done = nd.empty((opt.batch_size),opt.ctx)
-
+#Training
 while epis_count < opt.max_episode:
     cum_clipped_reward = 0
     cum_reward = 0
