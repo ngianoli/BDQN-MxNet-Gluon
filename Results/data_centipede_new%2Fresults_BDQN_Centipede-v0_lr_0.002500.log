@@ -1,0 +1,32 @@
+2018-12-31 14:47:36,016:alpha: 0.01, lr: 0.0025, gamma1: 0.95, image_size: 84, frame_len: 4, sigma: 0.001, lambda_W: 0.1, sigma_n: 1, epsilon_min: 0.1, annealing_end: 1000000.0, lastlayer: 512, gamma2: 0.95, ctx: gpu(0), internal_skip_frame: 4, replay_buffer_size: 500000, alpha_target: 1, batch_size: 32, rms_eps: 0.01, f_bayes_update: 1000, BayesBatch: 10000, Target_update: 10000, gamma: 0.99, skip_frame: 4, target_W_update: 10, replay_start_size: 50000, target_batch_size: 5000, max_episode: 3000, f_sampling: 1000, learning_frequency: 4
+2018-12-31 14:47:38,939:BDQN:env:Centipede-v0,epis[0],durat[46],fnum=45, cum_cl_rew = 51, cum_rew = 281,tot_cl = 0 , tot = 0
+2018-12-31 14:49:48,382:BDQN:env:Centipede-v0,epis[100],durat[66],fnum=6694, cum_cl_rew = 56, cum_rew = 1483,tot_cl = 0 , tot = 0
+2018-12-31 14:52:00,921:BDQN:env:Centipede-v0,epis[200],durat[57],fnum=13537, cum_cl_rew = 49, cum_rew = 452,tot_cl = 54 , tot = 1566
+2018-12-31 14:54:05,674:BDQN:env:Centipede-v0,epis[300],durat[77],fnum=19993, cum_cl_rew = 54, cum_rew = 1966,tot_cl = 53 , tot = 1479
+2018-12-31 14:56:19,260:BDQN:env:Centipede-v0,epis[400],durat[78],fnum=26718, cum_cl_rew = 92, cum_rew = 3988,tot_cl = 54 , tot = 1550
+2018-12-31 14:58:27,748:BDQN:env:Centipede-v0,epis[500],durat[62],fnum=33355, cum_cl_rew = 58, cum_rew = 1292,tot_cl = 54 , tot = 1678
+2018-12-31 15:00:33,375:BDQN:env:Centipede-v0,epis[600],durat[78],fnum=39884, cum_cl_rew = 45, cum_rew = 2127,tot_cl = 54 , tot = 1461
+2018-12-31 15:02:43,278:BDQN:env:Centipede-v0,epis[700],durat[44],fnum=46677, cum_cl_rew = 50, cum_rew = 453,tot_cl = 54 , tot = 1680
+2018-12-31 15:03:46,633:annealing and laerning are started 
+2018-12-31 15:05:34,340:BDQN:env:Centipede-v0,epis[800],durat[84],fnum=53516, cum_cl_rew = 68, cum_rew = 2754,tot_cl = 53 , tot = 1490
+2018-12-31 15:08:56,290:BDQN:env:Centipede-v0,epis[900],durat[86],fnum=60175, cum_cl_rew = 53, cum_rew = 1876,tot_cl = 54 , tot = 1584
+2018-12-31 15:12:23,182:BDQN:env:Centipede-v0,epis[1000],durat[121],fnum=66982, cum_cl_rew = 66, cum_rew = 4775,tot_cl = 55 , tot = 1720
+2018-12-31 15:15:40,069:BDQN:env:Centipede-v0,epis[1100],durat[59],fnum=73498, cum_cl_rew = 52, cum_rew = 566,tot_cl = 54 , tot = 1496
+2018-12-31 15:19:08,622:BDQN:env:Centipede-v0,epis[1200],durat[65],fnum=80415, cum_cl_rew = 53, cum_rew = 843,tot_cl = 55 , tot = 1627
+2018-12-31 15:22:26,025:BDQN:env:Centipede-v0,epis[1300],durat[45],fnum=86984, cum_cl_rew = 48, cum_rew = 628,tot_cl = 55 , tot = 1657
+2018-12-31 15:25:43,349:BDQN:env:Centipede-v0,epis[1400],durat[60],fnum=93558, cum_cl_rew = 61, cum_rew = 2792,tot_cl = 53 , tot = 1472
+2018-12-31 15:28:50,453:BDQN:env:Centipede-v0,epis[1500],durat[97],fnum=99801, cum_cl_rew = 53, cum_rew = 1656,tot_cl = 53 , tot = 1472
+2018-12-31 15:32:12,321:BDQN:env:Centipede-v0,epis[1600],durat[50],fnum=106510, cum_cl_rew = 56, cum_rew = 1964,tot_cl = 55 , tot = 1630
+2018-12-31 15:35:34,777:BDQN:env:Centipede-v0,epis[1700],durat[66],fnum=113316, cum_cl_rew = 51, cum_rew = 3247,tot_cl = 54 , tot = 1711
+2018-12-31 15:38:54,154:BDQN:env:Centipede-v0,epis[1800],durat[99],fnum=119977, cum_cl_rew = 70, cum_rew = 2914,tot_cl = 53 , tot = 1559
+2018-12-31 15:42:16,675:BDQN:env:Centipede-v0,epis[1900],durat[49],fnum=126757, cum_cl_rew = 48, cum_rew = 547,tot_cl = 54 , tot = 1580
+2018-12-31 15:45:32,362:BDQN:env:Centipede-v0,epis[2000],durat[38],fnum=133380, cum_cl_rew = 48, cum_rew = 1126,tot_cl = 53 , tot = 1507
+2018-12-31 15:48:44,641:BDQN:env:Centipede-v0,epis[2100],durat[60],fnum=139826, cum_cl_rew = 70, cum_rew = 1492,tot_cl = 54 , tot = 1728
+2018-12-31 15:51:56,663:BDQN:env:Centipede-v0,epis[2200],durat[63],fnum=146244, cum_cl_rew = 51, cum_rew = 1754,tot_cl = 55 , tot = 1547
+2018-12-31 16:05:15,539:BDQN:env:Centipede-v0,epis[2300],durat[54],fnum=153466, cum_cl_rew = 70, cum_rew = 2044,tot_cl = 67 , tot = 2352
+2018-12-31 16:09:04,965:BDQN:env:Centipede-v0,epis[2400],durat[49],fnum=161200, cum_cl_rew = 65, cum_rew = 2292,tot_cl = 82 , tot = 3309
+2018-12-31 16:12:46,492:BDQN:env:Centipede-v0,epis[2500],durat[135],fnum=168663, cum_cl_rew = 118, cum_rew = 7314,tot_cl = 81 , tot = 3277
+2018-12-31 16:16:14,084:BDQN:env:Centipede-v0,epis[2600],durat[97],fnum=175708, cum_cl_rew = 86, cum_rew = 4614,tot_cl = 81 , tot = 3240
+2018-12-31 16:19:41,705:BDQN:env:Centipede-v0,epis[2700],durat[57],fnum=182716, cum_cl_rew = 79, cum_rew = 1108,tot_cl = 81 , tot = 3256
+2018-12-31 16:22:57,325:BDQN:env:Centipede-v0,epis[2800],durat[103],fnum=189356, cum_cl_rew = 98, cum_rew = 4290,tot_cl = 83 , tot = 3275
+2018-12-31 16:26:04,252:BDQN:env:Centipede-v0,epis[2900],durat[45],fnum=195707, cum_cl_rew = 63, cum_rew = 1901,tot_cl = 77 , tot = 2978

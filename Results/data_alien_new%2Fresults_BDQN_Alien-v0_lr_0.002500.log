@@ -1,0 +1,32 @@
+2019-01-01 00:58:47,491:Target_update: 10000, lastlayer: 512, internal_skip_frame: 4, sigma_n: 1, max_episode: 3000, f_sampling: 1000, replay_buffer_size: 500000, ctx: gpu(0), lambda_W: 0.1, target_batch_size: 5000, target_W_update: 10, gamma: 0.99, lr: 0.0025, replay_start_size: 50000, rms_eps: 0.01, epsilon_min: 0.1, BayesBatch: 10000, gamma2: 0.95, f_bayes_update: 1000, skip_frame: 4, alpha_target: 1, image_size: 84, annealing_end: 1000000.0, frame_len: 4, alpha: 0.01, gamma1: 0.95, learning_frequency: 4, sigma: 0.001, batch_size: 32
+2019-01-01 00:58:51,326:BDQN:env:Alien-v0,epis[0],durat[94],fnum=93, cum_cl_rew = 50, cum_rew = 520,tot_cl = 0 , tot = 0
+2019-01-01 01:01:11,369:BDQN:env:Alien-v0,epis[100],durat[53],fnum=6546, cum_cl_rew = 18, cum_rew = 180,tot_cl = 0 , tot = 0
+2019-01-01 01:03:27,048:BDQN:env:Alien-v0,epis[200],durat[93],fnum=12848, cum_cl_rew = 53, cum_rew = 1510,tot_cl = 37 , tot = 410
+2019-01-01 01:05:47,052:BDQN:env:Alien-v0,epis[300],durat[71],fnum=19328, cum_cl_rew = 55, cum_rew = 560,tot_cl = 39 , tot = 472
+2019-01-01 01:08:04,260:BDQN:env:Alien-v0,epis[400],durat[74],fnum=25742, cum_cl_rew = 52, cum_rew = 520,tot_cl = 39 , tot = 452
+2019-01-01 01:10:21,029:BDQN:env:Alien-v0,epis[500],durat[71],fnum=32124, cum_cl_rew = 46, cum_rew = 950,tot_cl = 38 , tot = 443
+2019-01-01 01:12:35,419:BDQN:env:Alien-v0,epis[600],durat[58],fnum=38480, cum_cl_rew = 32, cum_rew = 320,tot_cl = 39 , tot = 487
+2019-01-01 01:14:49,922:BDQN:env:Alien-v0,epis[700],durat[43],fnum=44870, cum_cl_rew = 38, cum_rew = 380,tot_cl = 38 , tot = 433
+2019-01-01 01:16:39,616:annealing and laerning are started 
+2019-01-01 01:17:25,036:BDQN:env:Alien-v0,epis[800],durat[91],fnum=51421, cum_cl_rew = 44, cum_rew = 940,tot_cl = 39 , tot = 445
+2019-01-01 01:20:50,905:BDQN:env:Alien-v0,epis[900],durat[61],fnum=57884, cum_cl_rew = 26, cum_rew = 270,tot_cl = 38 , tot = 437
+2019-01-01 01:24:13,351:BDQN:env:Alien-v0,epis[1000],durat[70],fnum=64291, cum_cl_rew = 30, cum_rew = 300,tot_cl = 38 , tot = 460
+2019-01-01 01:27:37,812:BDQN:env:Alien-v0,epis[1100],durat[54],fnum=70710, cum_cl_rew = 22, cum_rew = 220,tot_cl = 37 , tot = 453
+2019-01-01 01:31:00,577:BDQN:env:Alien-v0,epis[1200],durat[64],fnum=77080, cum_cl_rew = 36, cum_rew = 370,tot_cl = 38 , tot = 441
+2019-01-01 01:34:18,233:BDQN:env:Alien-v0,epis[1300],durat[64],fnum=83334, cum_cl_rew = 35, cum_rew = 350,tot_cl = 39 , tot = 477
+2019-01-01 01:37:41,738:BDQN:env:Alien-v0,epis[1400],durat[56],fnum=89727, cum_cl_rew = 38, cum_rew = 380,tot_cl = 39 , tot = 447
+2019-01-01 01:41:03,485:BDQN:env:Alien-v0,epis[1500],durat[55],fnum=96050, cum_cl_rew = 29, cum_rew = 290,tot_cl = 38 , tot = 442
+2019-01-01 01:44:17,902:BDQN:env:Alien-v0,epis[1600],durat[55],fnum=102169, cum_cl_rew = 38, cum_rew = 380,tot_cl = 36 , tot = 429
+2019-01-01 01:47:39,988:BDQN:env:Alien-v0,epis[1700],durat[81],fnum=108508, cum_cl_rew = 53, cum_rew = 540,tot_cl = 39 , tot = 422
+2019-01-01 01:51:06,887:BDQN:env:Alien-v0,epis[1800],durat[64],fnum=115056, cum_cl_rew = 43, cum_rew = 430,tot_cl = 39 , tot = 470
+2019-01-01 01:54:23,802:BDQN:env:Alien-v0,epis[1900],durat[51],fnum=121275, cum_cl_rew = 38, cum_rew = 390,tot_cl = 37 , tot = 441
+2019-01-01 01:57:47,038:BDQN:env:Alien-v0,epis[2000],durat[75],fnum=127696, cum_cl_rew = 47, cum_rew = 480,tot_cl = 39 , tot = 457
+2019-01-01 02:01:02,628:BDQN:env:Alien-v0,epis[2100],durat[80],fnum=133933, cum_cl_rew = 49, cum_rew = 500,tot_cl = 39 , tot = 473
+2019-01-01 02:04:22,816:BDQN:env:Alien-v0,epis[2200],durat[52],fnum=140249, cum_cl_rew = 24, cum_rew = 240,tot_cl = 39 , tot = 489
+2019-01-01 02:07:42,378:BDQN:env:Alien-v0,epis[2300],durat[64],fnum=146555, cum_cl_rew = 39, cum_rew = 390,tot_cl = 37 , tot = 441
+2019-01-01 02:20:03,053:BDQN:env:Alien-v0,epis[2400],durat[51],fnum=152344, cum_cl_rew = 51, cum_rew = 510,tot_cl = 43 , tot = 473
+2019-01-01 02:22:58,931:BDQN:env:Alien-v0,epis[2500],durat[55],fnum=157923, cum_cl_rew = 42, cum_rew = 420,tot_cl = 52 , tot = 571
+2019-01-01 02:25:58,780:BDQN:env:Alien-v0,epis[2600],durat[63],fnum=163682, cum_cl_rew = 68, cum_rew = 680,tot_cl = 53 , tot = 609
+2019-01-01 02:29:00,774:BDQN:env:Alien-v0,epis[2700],durat[59],fnum=169486, cum_cl_rew = 56, cum_rew = 560,tot_cl = 55 , tot = 594
+2019-01-01 02:32:11,715:BDQN:env:Alien-v0,epis[2800],durat[59],fnum=175617, cum_cl_rew = 58, cum_rew = 590,tot_cl = 56 , tot = 671
+2019-01-01 02:35:22,007:BDQN:env:Alien-v0,epis[2900],durat[46],fnum=181685, cum_cl_rew = 53, cum_rew = 540,tot_cl = 55 , tot = 611

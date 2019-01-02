@@ -1,0 +1,22 @@
+2019-01-01 16:41:33,894:sigma_n: 1, f_bayes_update: 1000, learning_frequency: 4, skip_frame: 4, lr: 0.0025, f_sampling: 1000, target_W_update: 10, lambda_W: 0.1, annealing_end: 1000000.0, gamma: 0.99, alpha: 0.01, image_size: 84, sigma: 0.001, epsilon_min: 0.1, batch_size: 32, max_episode: 2000, frame_len: 4, replay_start_size: 50000, alpha_target: 1, Target_update: 10000, gamma2: 0.95, target_batch_size: 5000, BayesBatch: 10000, gamma1: 0.95, lastlayer: 512, internal_skip_frame: 4, ctx: gpu(0), replay_buffer_size: 500000, rms_eps: 0.01
+2019-01-01 16:41:37,228:BDQN:env:Assault-v0,epis[0],durat[120],fnum=119, cum_cl_rew = 6, cum_rew = 126,tot_cl = 0 , tot = 0
+2019-01-01 16:45:10,357:BDQN:env:Assault-v0,epis[100],durat[206],fnum=17907, cum_cl_rew = 15, cum_rew = 315,tot_cl = 0 , tot = 0
+2019-01-01 16:48:38,948:BDQN:env:Assault-v0,epis[200],durat[189],fnum=35088, cum_cl_rew = 16, cum_rew = 336,tot_cl = 11 , tot = 235
+2019-01-01 16:51:39,977:annealing and laerning are started 
+2019-01-01 16:52:58,866:BDQN:env:Assault-v0,epis[300],durat[289],fnum=53368, cum_cl_rew = 13, cum_rew = 273,tot_cl = 11 , tot = 250
+2019-01-01 16:59:53,328:BDQN:env:Assault-v0,epis[400],durat[86],fnum=71347, cum_cl_rew = 7, cum_rew = 147,tot_cl = 12 , tot = 256
+2019-01-01 17:06:28,762:BDQN:env:Assault-v0,epis[500],durat[109],fnum=88505, cum_cl_rew = 7, cum_rew = 147,tot_cl = 11 , tot = 238
+2019-01-01 17:13:13,594:BDQN:env:Assault-v0,epis[600],durat[149],fnum=106070, cum_cl_rew = 9, cum_rew = 189,tot_cl = 11 , tot = 245
+2019-01-01 17:20:21,580:BDQN:env:Assault-v0,epis[700],durat[262],fnum=124697, cum_cl_rew = 18, cum_rew = 378,tot_cl = 12 , tot = 261
+2019-01-01 17:27:13,668:BDQN:env:Assault-v0,epis[800],durat[211],fnum=142703, cum_cl_rew = 16, cum_rew = 336,tot_cl = 12 , tot = 255
+2019-01-01 17:39:17,008:BDQN:env:Assault-v0,epis[900],durat[92],fnum=154023, cum_cl_rew = 20, cum_rew = 420,tot_cl = 16 , tot = 338
+2019-01-01 17:41:34,093:BDQN:env:Assault-v0,epis[1000],durat[86],fnum=160040, cum_cl_rew = 21, cum_rew = 441,tot_cl = 18 , tot = 383
+2019-01-01 17:44:19,425:BDQN:env:Assault-v0,epis[1100],durat[70],fnum=167245, cum_cl_rew = 17, cum_rew = 357,tot_cl = 19 , tot = 416
+2019-01-01 17:47:04,223:BDQN:env:Assault-v0,epis[1200],durat[86],fnum=174529, cum_cl_rew = 24, cum_rew = 504,tot_cl = 21 , tot = 441
+2019-01-01 17:49:38,890:BDQN:env:Assault-v0,epis[1300],durat[79],fnum=181275, cum_cl_rew = 22, cum_rew = 462,tot_cl = 20 , tot = 420
+2019-01-01 17:52:23,632:BDQN:env:Assault-v0,epis[1400],durat[70],fnum=188549, cum_cl_rew = 17, cum_rew = 357,tot_cl = 21 , tot = 445
+2019-01-01 17:55:08,879:BDQN:env:Assault-v0,epis[1500],durat[73],fnum=195783, cum_cl_rew = 22, cum_rew = 462,tot_cl = 21 , tot = 448
+2019-01-01 17:58:05,070:BDQN:env:Assault-v0,epis[1600],durat[104],fnum=203562, cum_cl_rew = 26, cum_rew = 546,tot_cl = 22 , tot = 464
+2019-01-01 18:00:56,867:BDQN:env:Assault-v0,epis[1700],durat[85],fnum=211114, cum_cl_rew = 24, cum_rew = 504,tot_cl = 23 , tot = 486
+2019-01-01 18:03:41,589:BDQN:env:Assault-v0,epis[1800],durat[74],fnum=218335, cum_cl_rew = 25, cum_rew = 525,tot_cl = 21 , tot = 454
+2019-01-01 18:06:13,386:BDQN:env:Assault-v0,epis[1900],durat[98],fnum=225041, cum_cl_rew = 33, cum_rew = 693,tot_cl = 21 , tot = 445

@@ -1,0 +1,22 @@
+2019-01-02 02:21:03,860:Target_update: 10000, skip_frame: 4, f_bayes_update: 1000, epsilon_min: 0.1, lambda_W: 0.1, target_W_update: 10, gamma2: 0.95, sigma: 0.001, frame_len: 4, lr: 0.0025, rms_eps: 0.01, internal_skip_frame: 4, lastlayer: 512, replay_buffer_size: 500000, learning_frequency: 4, alpha_target: 1, ctx: gpu(0), batch_size: 32, replay_start_size: 50000, BayesBatch: 10000, gamma: 0.99, gamma1: 0.95, f_sampling: 1000, alpha: 0.01, annealing_end: 1000000.0, target_batch_size: 5000, sigma_n: 1, image_size: 84, max_episode: 2000
+2019-01-02 02:21:07,189:BDQN:env:Pong-v0,epis[0],durat[82],fnum=81, cum_cl_rew = -21, cum_rew = -21,tot_cl = 0 , tot = 0
+2019-01-02 02:22:53,370:BDQN:env:Pong-v0,epis[100],durat[96],fnum=8762, cum_cl_rew = -20, cum_rew = -20,tot_cl = 0 , tot = 0
+2019-01-02 02:24:37,133:BDQN:env:Pong-v0,epis[200],durat[88],fnum=17244, cum_cl_rew = -20, cum_rew = -20,tot_cl = -20 , tot = -20
+2019-01-02 02:26:22,268:BDQN:env:Pong-v0,epis[300],durat[94],fnum=25762, cum_cl_rew = -20, cum_rew = -20,tot_cl = -20 , tot = -20
+2019-01-02 02:28:08,663:BDQN:env:Pong-v0,epis[400],durat[83],fnum=34463, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:29:54,307:BDQN:env:Pong-v0,epis[500],durat[85],fnum=43102, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:31:19,980:annealing and laerning are started 
+2019-01-02 02:31:59,982:BDQN:env:Pong-v0,epis[600],durat[82],fnum=51671, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:35:22,280:BDQN:env:Pong-v0,epis[700],durat[83],fnum=60250, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:38:44,368:BDQN:env:Pong-v0,epis[800],durat[81],fnum=68804, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:42:07,769:BDQN:env:Pong-v0,epis[900],durat[86],fnum=77416, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:45:28,851:BDQN:env:Pong-v0,epis[1000],durat[92],fnum=86002, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:48:50,501:BDQN:env:Pong-v0,epis[1100],durat[83],fnum=94612, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:52:11,918:BDQN:env:Pong-v0,epis[1200],durat[112],fnum=103214, cum_cl_rew = -19, cum_rew = -19,tot_cl = -20 , tot = -20
+2019-01-02 02:55:32,579:BDQN:env:Pong-v0,epis[1300],durat[80],fnum=111828, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 02:58:54,934:BDQN:env:Pong-v0,epis[1400],durat[80],fnum=120430, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 03:02:16,549:BDQN:env:Pong-v0,epis[1500],durat[87],fnum=129065, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 03:05:37,559:BDQN:env:Pong-v0,epis[1600],durat[85],fnum=137710, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 03:08:59,632:BDQN:env:Pong-v0,epis[1700],durat[87],fnum=146317, cum_cl_rew = -20, cum_rew = -20,tot_cl = -20 , tot = -20
+2019-01-02 03:22:43,333:BDQN:env:Pong-v0,epis[1800],durat[82],fnum=155772, cum_cl_rew = -21, cum_rew = -21,tot_cl = -20 , tot = -20
+2019-01-02 03:27:00,523:BDQN:env:Pong-v0,epis[1900],durat[119],fnum=166815, cum_cl_rew = -18, cum_rew = -18,tot_cl = -19 , tot = -19
