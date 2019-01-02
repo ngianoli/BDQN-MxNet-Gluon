@@ -116,27 +116,7 @@ def eval_score(env_name, Qp):
 
         record.append(rsum)
     return(np.mean(record))
-"""
-def BayesReg(phiphiT,phiY,alpha,batchsize):
-    sigma=0.001
-    sigma_n=1.0
-    phiphiT *= (1-alpha) #Forgetting parameter alpha suggest how much of the moment from the past can be used, we set alpha to 1 which means do not use the past moment
-    phiY *= (1-alpha)
-    for j in range(batchsize):
-        batch = buffer.sample(1) # sample a minibatch of size one from replay buffer
-        states = np.array([batch[i][0] for i in range(batchsize)])
-        actions = np.array([batch[i][1] for i in range(batchsize)])
-        rewards = np.array([batch[i][2] for i in range(batchsize)])
-        states_prime = np.array([batch[i][3] for i in range(batchsize)])
-        bat_done = transitions[0].done
-        phiphiT[int(actions)] += nd.dot(dqn_(states).T,dqn_(bat_state))
-        phiY[int(actions)] += (dqn_(states)[0].T*(rewards +(1.-bat_done) * opt.gamma * nd.max(nd.dot(E_W_target,target_dqn_(bat_state_next)[0].T))))
-    for i in range(actsize):
-        inv = np.linalg.inv((phiphiT[i]/sigma_n + 1/sigma*eye).asnumpy())
-        E_W[i] = nd.array(np.dot(inv,phiY[i].asnumpy())/sigma_n, ctx = opt.ctx)
-        Cov_W[i] = sigma * inv
-    return phiphiT,phiY,E_W,Cov_W
-"""
+
 def main(env):
     dict_env={'pong':'Pong-v0', 'assault':'Assault-v0', 'alien':'Alien-v0', 'centipede':'Centipede-v0'}
 

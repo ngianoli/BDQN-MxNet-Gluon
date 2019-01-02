@@ -18,11 +18,9 @@ import logging, logging.handlers
 import matplotlib.ticker as mtick
 
 
-command = 'mkdir data' # Creat a direcotry to store models and scores.
+command = 'mkdir data' # Creat a directory to store models and scores.
 os.system(command)
 
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
 
 
 class Options:
@@ -86,10 +84,7 @@ logger.addHandler(fh)
 ff =(', '.join("%s: %s" % item for item in attrs.items()))
 logging.error(str(ff))
 
-
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
-
+#Main network
 def DQN_gen():
     DQN = gluon.nn.Sequential()
     with DQN.name_scope():
@@ -125,8 +120,6 @@ DQN_trainer = gluon.Trainer(dqn_.collect_params(),'RMSProp', \
                           {'learning_rate': opt.lr ,'gamma1':opt.gamma1,'gamma2': opt.gamma2,'epsilon': opt.rms_eps,'centered' : True})
 dqn_.collect_params().zero_grad()
 
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
-
 
 
 Transition = namedtuple('Transition',('state', 'action', 'next_state', 'reward','done'))
@@ -143,8 +136,6 @@ class Replay_Buffer():
     def sample(self, batch_size):
         return random.sample(self.memory, batch_size)
 
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
 
 
 bat_state = nd.empty((1,opt.frame_len,opt.image_size,opt.image_size), opt.ctx)
@@ -170,8 +161,6 @@ phiphiT = nd.zeros((num_action,opt.lastlayer,opt.lastlayer), opt.ctx)
 phiY = nd.zeros((num_action,opt.lastlayer), opt.ctx)
 
 
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
 
 
 
@@ -205,8 +194,6 @@ def sample_W(E_W,U):
 
 
 
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
 
 def preprocess(raw_frame, currentState = None, initial_state = False):
     raw_frame = nd.array(raw_frame,mx.cpu())
@@ -242,8 +229,6 @@ l2loss = gluon.loss.L2Loss(batch_axis=0)
 
 
 
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
-
 frame_counter = 0. # Counts the number of steps so far
 annealing_count = 0. # Counts the number of annealing steps
 epis_count = 0. # Counts the number episodes so far
@@ -258,7 +243,6 @@ c_t = 0
 
 
 
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
 
 render_image = False # Whether to render Frames and show the game
 batch_state = nd.empty((opt.batch_size,opt.frame_len,opt.image_size,opt.image_size), opt.ctx)
@@ -392,8 +376,6 @@ while epis_count < opt.max_episode:
         break
 
 
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
-
 
 tot_c = tot_clipped_reward
 tot = tot_reward
@@ -422,8 +404,4 @@ print('Running after %d number of episodes' %epis_count)
 plt.xlabel("Number of steps")
 plt.ylabel("Average Reward per episode")
 plt.title("%s" %(env_name))
-plt.savefig("%s_new" %(env_name))
-
-
-
-'''00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'''
+plt.savefig("%s_new2" %(env_name))
