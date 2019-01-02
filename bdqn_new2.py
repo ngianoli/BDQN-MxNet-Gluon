@@ -395,7 +395,7 @@ for i in range(int(epis_count)-bandwidth):
 
 
 t = np.arange(int(epis_count)-bandwidth)
-belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQN_new")
+belplt = plt.plot(f_num,total_rew[0:int(epis_count)-bandwidth],"b", label = "BDQN_new2")
 fonts=3
 
 #plt.ticklabel_format(axis='both', style='sci', scilimits=(-2,2),fontsize=fonts, family = 'serif')
