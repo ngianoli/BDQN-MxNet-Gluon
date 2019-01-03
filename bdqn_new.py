@@ -41,7 +41,7 @@ class Options:
         self.replay_start_size = 50000 # Start to backpropagated through the network, learning starts
 
         #otimization
-        self.max_episode =   4000 #max number of episodes#
+        self.max_episode =   2000 #max number of episodes#
         self.lr = 0.0025 # RMSprop learning rate
         self.gamma1 = 0.95 # RMSprop gamma1
         self.gamma2 = 0.95 # RMSprop gamma2
@@ -60,7 +60,7 @@ class Options:
         self.sigma_n = 1 # noise variacne
 opt = Options()
 envname = sys.argv[1]
-dict_env={'pong':'Pong-v0', 'assault':'Assault-v0', 'alien':'Alien-v0', 'centipede':'Centipede-v0'}
+dict_env={'asterix':'Asterix-v0','asteroids':'Asteroids-v0','pong':'Pong-v0', 'assault':'Assault-v0', 'alien':'Alien-v0', 'centipede':'Centipede-v0'}
 
 # parameter initializations
 env_name = dict_env[envname]
