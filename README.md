@@ -7,3 +7,6 @@ We have implemented a DDQN network in ddqn.py and utils.py. We have also modifie
 for experiments: bdqn.py, bdqn_new.py, bdqn_new2.py, bdqn_new3.py
 Our main results are shown in the Results folder.
 The tutorial BDQN.ipynb is contributed by the original author which we followed closely.
+
+To run our experiments for all networks, we can simply run python3 file_name game_name
+where game_name can be pong, assault, alien, or centipede, and file_name can be ddqn.py, bdqn.py, bdqn_new.py, or bdqn_new2.py.
