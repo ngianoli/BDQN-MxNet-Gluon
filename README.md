@@ -10,3 +10,4 @@ The tutorial BDQN.ipynb is contributed by the original author which we followed 
 
 To run our experiments for all networks, we can simply run python3 file_name game_name
 where game_name can be pong, assault, alien, or centipede, and file_name can be ddqn.py, bdqn.py, bdqn_new.py, or bdqn_new2.py.
+The implementation requires installation of CUDA 9.0 and CUDNN to allow MxNet to work on GCP VM. We also need the gym atari.py file to make the game environments.
